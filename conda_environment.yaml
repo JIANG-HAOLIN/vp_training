@@ -1,0 +1,22 @@
+name: broncho_dl
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - numpy
+      - transformers
+      - diffusers
+      - matplotlib
+      - pandas
+      - tensorboard
+      - lightning
+      - hydra-core
+      - einops
+      - opencv-python

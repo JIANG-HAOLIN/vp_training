@@ -1,0 +1,6 @@
+name: "vp_trigger_trigger_predictor"
+
+pl_module:
+  _target_: broncho_dl.src.pl_modules.vp_trigger.TriggerPredictor
+
+

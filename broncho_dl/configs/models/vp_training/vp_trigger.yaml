@@ -1,0 +1,7 @@
+name: 'res_vit_predictor'
+
+model:
+  _target_: broncho_dl.src.models.vp_trigger.TriggerPredictor
+
+inference:
+  ckpt_path: ' '

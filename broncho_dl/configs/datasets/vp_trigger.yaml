@@ -1,0 +1,15 @@
+name: 'dummy'
+dataloader:
+  _target_: broncho_dl.src.datasets.vp_trigger.get_loaders
+  batch_size: 32
+  data_folder: '/home/haoj/0/data/bruno0'
+  txt_file: "/home/haoj/0/data/bruno0/merged.txt"
+  raw_dir: "/home/haoj/0/data/bruno0/raw"
+  nav_dir: "/home/haoj/0/data/bruno0/nav"
+  drop_last: True
+  shuffle: True
+  num_workers: 4
+  val_ratio: 0.2
+  seed: 42
+  window_size: 5
+
